@@ -14,7 +14,7 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 
 const countdown = () => {
     // set hackathon date using GMT timezone
-    const countDate = new Date("February 22, 2026 10:00:00 GMT").getTime();
+    const countDate = new Date("February 20, 2027 10:00:00 GMT").getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
